@@ -118,3 +118,79 @@ font-weight: 500;
   margin-top: 10px;
   display: none;
 }
+
+@media (max-width:433px){
+
+
+  .search input{
+    height: 40px;
+    margin-right: 10px;
+   font-size: 14px;
+  }
+  .search button{
+
+    width:40px;
+    height:40px;
+    cursor: pointer;
+  
+  }
+
+  .details{
+    display: flex;
+    flex-direction: column;
+  }
+  .details .col{
+   padding: 10px;
+  }
+  .weather .temp{
+    font-size: 40px;
+  }
+
+  .weather .city{
+    font-size: 30px;
+  }
+  .details .col p{
+   font-size: 20px;
+   }
+  }
+
+  @media (max-width:380px){
+    .search input{
+      height: 30px;
+      margin-right: 8px;
+     font-size: 12px;
+    }
+    .search button{
+  
+      width:30px;
+      height:30px;
+      cursor: pointer;
+    }
+      .search button img{
+        width: 10px;
+      }
+    }
+    
+
+    
+  @media (max-width:345px){
+    .search input{
+      height: 20px;
+      margin-right: 5px;
+     font-size: 10px;
+    }
+    .search button{
+  
+      width:20px;
+      height:20px;
+      cursor: pointer;
+    }
+      .search button img{
+        width: 7px;
+      }
+      .card h2{
+        font-size: 15px;
+      }
+    }
+    
+  
